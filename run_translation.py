@@ -497,7 +497,7 @@ def main():
         )
 
     # Metric
-    metric = load_metric("sacrebleu")
+    metric = load_metric("sacrebleu", trust_remote_code=True)
 
     def postprocess_text(preds, labels):
         preds = [pred.strip() for pred in preds]
