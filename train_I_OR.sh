@@ -11,7 +11,7 @@ python ./run_translation.py \
         --do_train \
         --do_eval \
         --train_file ./FLUTEfinaltrain.json \
-        --validation_file ./FLUTEfinalvaljson \
+        --validation_file ./FLUTEfinalval.json \
         --overwrite_output_dir \
         --max_source_length 1024 \
         --max_target_length 256 \
