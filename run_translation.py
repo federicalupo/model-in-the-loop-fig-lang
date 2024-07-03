@@ -352,7 +352,8 @@ def main():
     )
     
     device_ids = [0,1,2,3]
-    device_map = {device_ids[0]: list(range(0, 6)),device_ids[1]: list(range(6,12)),device_ids[2]: list(range(12,18)),device_ids[3]: list(range(18,24))}
+    #device_map = {device_ids[0]: list(range(0, 6)),device_ids[1]: list(range(6,12)),device_ids[2]: list(range(12,18)),device_ids[3]: list(range(18,24))}
+    device_map = {device_ids[0]: list(range(0, 6))}
     model.parallelize(device_map)
 
     model.resize_token_embeddings(len(tokenizer))
