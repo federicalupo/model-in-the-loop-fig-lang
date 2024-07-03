@@ -4,7 +4,7 @@ USE_TF=0
 
 python ./run_translation.py \
         --output_dir  ./output \
-        --model_name_or_path t5-3b \
+        --model_name_or_path t5-small \
         --cache_dir  ./cache \
         --evaluation_strategy epoch \
         --save_strategy epoch \
