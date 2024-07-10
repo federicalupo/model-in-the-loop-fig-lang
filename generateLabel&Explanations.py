@@ -11,7 +11,7 @@ np.random.seed(0)
 
 
 data = []
-for line in open("test.jsonl"):
+for line in open("/content/model-in-the-loop-fig-lang/testgolddata/idiom_test.jsonl"):
     line = json.loads(line)
     data.append(line)
 
