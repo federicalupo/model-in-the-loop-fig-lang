@@ -1,6 +1,6 @@
 [
     {
-        "hypothesis": "He was at the crossroads of buzzing the stuff all off.",
+        "hypothesis": "He was at the crossroads of buzzing the stuff all off.", 
         "premise": "He was at a point where he had to make a decision of buzzing the stuff all off.",
         "label": "Entailment",
         "explanation": "To be at the crossroads means to be at a point where a choice must be made, and in this sentence the choice is whether or not to buzz the stuff all off.",
