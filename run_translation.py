@@ -351,9 +351,14 @@ def main():
         use_auth_token=True if model_args.use_auth_token else None,
     )
     
-    device_ids = [0,1,2,3]
-    #device_map = {device_ids[0]: list(range(0, 6)),device_ids[1]: list(range(6,12)),device_ids[2]: list(range(12,18)),device_ids[3]: list(range(18,24))}
-    device_map = {device_ids[0]: list(range(0, 6))}
+    device_ids = [0]
+    if model_args.model_name_or_path == 't5-small':
+        device_map = {device_ids[0]: list(range(0, 6))}
+    elif model_args.model_name_or_path == 't5-base':
+        device_map = {device_ids[0]: list(range(0, 12))}
+    elif model_args.model_name_or_path == 't5-large':
+        device_map = {device_ids[0]: list(range(0, 24))}
+        
     model.parallelize(device_map)
 
     model.resize_token_embeddings(len(tokenizer))
