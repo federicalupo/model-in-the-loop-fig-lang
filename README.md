@@ -10,12 +10,12 @@ Starting from the FLUTE project, we decided to propose two extensions:
   - t5-small
   - t5-base
   - t5-large
-  - t5-large polynomial learning rate 
+  - t5-large with polynomial learning rate 
 
 - Ablation study:
-          Two new dataset used for training the model:
-                  - Fig-QA: it consists of 10256 examples of human-written creative metaphors that are paired as a Winograd schema
-                  - MNLI: The Multi-Genre Natural Language Inference Corpus is a crowdsourced collection of sentence pairs with textual entailment annotations. Given a premise sentence and                         a hypothesis sentence, the task is to predict whether the premise entails the hypothesis (entailment), contradicts the hypothesis (contradiction), or neither (neutral)
+  Two new dataset used for training the model:
+  - Fig-QA: it consists of 10256 examples of human-written creative metaphors that are paired as a Winograd schema
+  - MNLI: The Multi-Genre Natural Language Inference Corpus is a crowdsourced collection of sentence pairs with textual entailment annotations. Given a premise sentence and a hypothesis sentence, the task is to predict whether the premise entails the hypothesis (entailment), contradicts the hypothesis (contradiction), or neither (neutral)
 
 
 ## Previous work
