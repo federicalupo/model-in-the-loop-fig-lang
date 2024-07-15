@@ -1,6 +1,6 @@
 # FLUTE Extension: Figurative Language Understanding through Textual Explanations
 
-In this repository we propose some extensions to the work of Tuhin Chakrabarty, A. Saakyan, and Debanjan Ghosh on FLUTE for the project of the course Deep Natural Language Processing.
+In this repository we propose some extensions to the work of Tuhin Chakrabarty, A. Saakyan, and Debanjan Ghosh on FLUTE project as part of the course Deep Natural Language Processing.
 
 ## Actual work
 
