@@ -7,10 +7,10 @@ In this repository we propose some extensions to the work of Tuhin Chakrabarty, 
 Starting from the FLUTE project, we decided to propose two extensions:
 
 - Model exploration:
-          - t5-small
-          - t5-base
-          - t5-large
-          - t5-large polynomial learning rate 
+  - t5-small
+  - t5-base
+  - t5-large
+  - t5-large polynomial learning rate 
 
 - Ablation study:
           Two new dataset used for training the model:
