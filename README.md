@@ -24,7 +24,7 @@ Starting from the FLUTE project, we decided to propose two extensions:
 
 - First extension: Model Exploration
 
-``` In the train_I_OR.sh file, modify the --model_name_or_path parameter (default = t5-large```
+``` In the train_I_OR.sh file, modify the --model_name_or_path parameter (default = t5-large)```
 
 - Second extensions: Dataset Exploration
   
@@ -35,7 +35,7 @@ The three types of dataset used are already available on the repository:
 
 It is possible to generate the Fig-QA and MNLI datasets, by running prepare_figqa_data_train.py, prepare_mnli_data_train.py (in the main.ipynb)
 
-``` In the train_I_OR.sh file, modify the --train_file and --validation_file parameters info (default = FLUTE dataset ```
+``` In the train_I_OR.sh file, modify the --train_file and --validation_file parameters info (default = FLUTE dataset) ```
 
 To obtain the predictions for a category (Sarcasm, Simile, Metaphor, Idiom) run: ``` generateLabel&Explanations.py ```, each time change the category 
 
