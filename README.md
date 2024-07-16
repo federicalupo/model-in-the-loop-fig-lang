@@ -17,6 +17,28 @@ Starting from the FLUTE project, we decided to propose two extensions:
   - Fig-QA: it consists of 10256 examples of human-written creative metaphors that are paired as a Winograd schema
   - MNLI: The Multi-Genre Natural Language Inference Corpus is a crowdsourced collection of sentence pairs with textual entailment annotations. Given a premise sentence and a hypothesis sentence, the task is to predict whether the premise entails the hypothesis (entailment), contradicts the hypothesis (contradiction), or neither (neutral)
 
+## Reproducibility of the code
+
+``` Run main.ipynb to fine-tune the model and to obtain predictions```
+
+- First extension: Model Exploration
+
+``` In the train_I_OR.sh file, modify the --model_name_or_path parameter (default = t5-large```
+
+- Second extensions: Dataset Exploration
+  
+The three types of dataset used are already available on the repository:
+  - FLUTEfinaltrain.json, FLUTEfinalval.json, FLUTEfinaltest.json
+  - figqa_train.json, figqa_valid.json, figqa_test.json
+  - mnli_train.json, mnli_valid.json, mnli_test.json
+
+It is possible to generate the Fig-QA and MNLI datasets, by running prepare_figqa_data_train.py, prepare_mnli_data_train.py (in the main.ipynb)
+
+``` In the train_I_OR.sh file, modify the --train_file and --validation_file parameters info (default = FLUTE dataset ```
+
+To obtain the predictions for a category (Sarcasm, Simile, Metaphor, Idiom) run: ``` generateLabel&Explanations.py ```, each time change the category 
+
+
 
 ## Previous work
 
